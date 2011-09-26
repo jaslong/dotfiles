@@ -1,10 +1,8 @@
 #!/bin/zsh
 
-autoload -U promptinit && promptinit
-autoload -U colors && colors
-
 export EDITOR=emacs
 
-export PS1="[$fg[blue]%n@%m$reset_color]:$fg[yellow]%~
-%(?.%{$fg[green]%}.%{$fg[red]%})%#$reset_color "
+export PS1="[%F{blue}%n@%m%f]:%F{yellow}%~%f
+%(?.%F{green}.%F{red})%#%f "
+export PS2="> "
 export RPS1=""
