@@ -1,3 +1,5 @@
+[core]
+  editor = emacs
 [user]
   name = Jason Long (jaslong)
   email = jason.shijia.long@gmail.com

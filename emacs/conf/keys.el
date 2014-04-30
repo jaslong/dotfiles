@@ -14,3 +14,7 @@
 
 ;; undo
 (global-set-key (kbd "C--") 'undo)
+
+;; replace string/regex
+(global-set-key (kbd "C-x C-r") 'replace-string)
+(global-set-key (kbd "C-x r") 'replace-regex)
