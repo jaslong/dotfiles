@@ -1,22 +1,11 @@
 [core]
-  editor = emacs
+	editor = vim
+	excludesFile = ~/.gitignore
 [user]
-  name = Jason Long (jaslong)
-  email = jason.shijia.long@gmail.com
-[color]
-  branch = auto
-  diff = auto
-  status = auto
-[color "branch"]
-  current = yellow reverse
-  local = yellow
-  remote = green
-[color "diff"]
-  meta = yellow bold
-  frag = magenta bold
-  old = red
-  new = cyan
-[color "status"]
-  added = yellow
-  changed = green
-  untracked = cyan
+	name = Jason Long
+	email = j@jaslong.com
+	signingkey = TODO
+[commit]
+	gpgsign = true
+[pull]
+	rebase = true
